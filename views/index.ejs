@@ -15,8 +15,8 @@
 			</div>
 			<div class="col-sm-12">
 				<% movies.forEach(movie => { %>
-					<div class="col-md-3 col-sm-4 poster">
-						<a href="/movie/<%= movie.id%>"><img src="<%= imageBaseUrl + movie.poster_path %>" /></a>
+					<div class="col-md-3 col-sm-4 poster" <%= movie.poster_path !== null ? '' : 'hidden'%>>
+						<a href="/movie/<%= movie.id%>"><img src="<%= imageBaseUrl + movie.poster_path %>"/></a>
 					</div>
 				<% })%>
 				
