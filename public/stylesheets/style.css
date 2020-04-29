@@ -28,7 +28,7 @@ a {
 }
 
 .single-movie-title, .overview-header{
-  font-family: 'Metamorphous', cursive;
+  font-family: 'Manrope', cursive;
 }
 
 .overview-header{
@@ -37,7 +37,7 @@ a {
 }
 
 .single-movie-overview{
-  font-family: 'Swanky and Moo Moo', cursive;
+  font-family: 'Lato', cursive;
   font-size: 24px;
   font-weight: normal;
 }
